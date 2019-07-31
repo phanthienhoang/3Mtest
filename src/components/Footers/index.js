@@ -13,7 +13,7 @@ function index() {
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=pkr-footer"
+                  href="#"
                   target="_blank"
                 >
                   3Mtest
@@ -21,7 +21,7 @@ function index() {
               </li>
               <li>
                 <a
-                  href="http://blog.creative-tim.com/?ref=pkr-footer"
+                  href="#"
                   target="_blank"
                 >
                   Blog
@@ -29,7 +29,7 @@ function index() {
               </li>
               <li>
                 <a
-                  href="https://www.creative-tim.com/license?ref=pkr-footer"
+                  href="#"
                   target="_blank"
                 >
                   Licenses

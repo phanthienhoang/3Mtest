@@ -15,16 +15,11 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/login" render={props => <Login {...props} />} />
-      <Route path="/index" render={props =>(localStorage.getItem('usertoken')) 
-        ? <Home {...props} /> 
-        : <Redirect to="/login" /> } 
+      <Route path="/index" render={props => <Home {...props} />} 
       />
-      <Route path="/example/:id" render={props =>(localStorage.getItem('usertoken')) 
-        ? <Example {...props} /> 
-        : <Redirect to="/login" /> } 
-      />
-
-      <Redirect to="/login" />
+      <Route path="/example/:id"  render={props => <Example {...props} />} 
+   />
+      <Redirect to="/index" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
